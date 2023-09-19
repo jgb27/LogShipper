@@ -33,6 +33,25 @@ logger.log('This is a warning.', LogType.WARNING);
 // Log an error message
 logger.log('This is an error.', LogType.ERROR);
 ```
+## Custom Log Levels
+In addition to the default log levels (INFO, WARNING, ERROR), logshipper now supports custom log levels, allowing you to define your own log levels for more granular logging.
+
+### Adding Custom Log Levels
+You can add a custom log level using the addCustomLogLevel method:
+
+```bash
+logger.addCustomLogLevel('DEBUG', 100); // Example custom log level
+```
+
+### Logging with Custom Log Levels
+Once you've added custom log levels, you can log messages with those levels using the logCustom method:
+
+```js
+logger.logCustom('This is a custom debug message.', 'DEBUG');
+```
+
+Make sure to define custom log levels before using them for logging. If a custom log level is not defined, a warning message will be displayed in the console.
+
 ## Configuration Options
 logshipper offers several configuration options that you can adjust according to your needs:
 

@@ -1,5 +1,5 @@
 {
-  "name": "logshipper",
+  "name": "logger27",
   "version": "1.0.0",
   "description": "Um pacote para registro de logs em Node.js",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "logging"
   ],
   "author": "João Gustavo Soares Bispo",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "dependencies": {
     "chalk": "^4.1.0"
   },
