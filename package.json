@@ -1,6 +1,6 @@
 {
   "name": "logger27",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Um pacote para registro de logs em Node.js",
   "main": "index.js",
   "keywords": [
